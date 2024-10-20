@@ -5,19 +5,19 @@ body{
     font-size: 20px;
     display: flex;
     justify-content:space-around;
-width: 75%;
-margin-top: 400px;
-margin-left: auto;
-margin-right: auto;
+    width: 75%;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
-h1{
+
+#header h1{
     font-size: 50px;
     color: black;   
-
 }
 
 
-.container{
+#header .container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -26,9 +26,9 @@ h1{
     padding-bottom: 150px;
     position: relative;
     
-
-
 }
+
+
 .container :hover{
     transform: scale(1.1);
     transition: 0.5s;
@@ -37,9 +37,9 @@ h1{
     transition-behavior: ease-in-out;
     border-radius: 25%;
 }
-.fa-stack{
+.fa-stack, #fa-stack{
+    background: #000;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -48,10 +48,9 @@ h1{
     /* background-color: rgba(0, 0, 0, 0.178); */
    
     padding-right: 350px;
-    position: relative;
-    left: 0px;
-    right: 620px  ;
-    top: 0px;
+    height: 400px;
+
+
 }
 .fa fa-whatsapp{
     color: green;
@@ -83,7 +82,7 @@ a{
     height: 25px;
     color: #ffffff;
     width: 75px;
-    position: relative
+    position: relative;
        font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: italic;
@@ -104,7 +103,6 @@ img{
     border: solid 2px rgb(66, 78, 77);  
     border-radius: 80%;
 
-
 }
 
 img:hover{
@@ -114,6 +112,5 @@ img:hover{
     transition-timing-function: calc(0.5s);
     transition-behavior: ease-in-out;
     border-radius: 25%;
-
    
 }
