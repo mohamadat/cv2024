@@ -1,7 +1,10 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+body{
+    background: #ccf0e4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
 }
+
 
 .navbar {
     display: flex;
@@ -9,6 +12,7 @@ body {
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
+   
 }
 
 .logo {
@@ -37,4 +41,6 @@ body {
 .nav-links a:hover {
     color: #ff6347;
 }
+
+
 
